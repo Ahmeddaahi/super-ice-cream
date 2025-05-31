@@ -36,11 +36,12 @@ export default function Home() {
             Welcome to Super Ice Cream
           </h2>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-            Experience the sweetest moments in Jigjiga at our welcoming ice cream cafe. We&apos;re proud to be Jigjiga&apos;s favorite ice cream destination, serving our community with love.
+            Experience the sweetest moments in Jigjiga at our welcoming ice cream cafe. 
+            We take pride in serving delightful frozen treats that bring smiles to our community, 
             <span className="font-semibold">24 hours a day, 7 days a week</span>.
           </p>
           <p className="text-lg md:text-xl text-gray-600">
-            Whether it's a scorching afternoon or a midnight craving, 
+            Whether it&apos;s a scorching afternoon or a late-night craving, 
             our doors are always open to satisfy your sweet tooth with our premium ice cream selection.
           </p>
         </div>
@@ -64,7 +65,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6 space-y-4">
-                <h1 className="text-5xl font-bold mb-4">Jigjiga's Coolest Ice Cream Spot</h1>
+                <h3 className="text-xl font-bold text-gray-800">Vanilla Dream</h3>
                 <p className="text-gray-600">Rich and creamy Madagascar vanilla bean ice cream with a silky smooth texture</p>
                 <p className="text-blue-600 font-semibold">ETB 150</p>
               </div>
@@ -115,7 +116,7 @@ export default function Home() {
                 />
               </div>
               <div className="p-6 space-y-4">
-                <h2 className="text-3xl font-semibold mb-6">Why We're Special</h2>
+                <h3 className="text-xl font-bold text-gray-800">Caramel Swirl</h3>
                 <p className="text-gray-600">Smooth vanilla ice cream with rich caramel ribbons</p>
                 <p className="text-blue-600 font-semibold">ETB 170</p>
               </div>
@@ -148,7 +149,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Open 24/7</h3>
-                <p className="text-gray-600">We&apos;re open 24/7 to satisfy your ice cream cravings any time of day or night.</p>
+                <p className="text-gray-600">We&apos;re here whenever your ice cream cravings strike, day or night.</p>
               </div>
             </div>
 
