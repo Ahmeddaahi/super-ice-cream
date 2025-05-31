@@ -12,7 +12,7 @@ export default function Footer() {
           {/* Logo & Tagline */}
           <div className="text-center space-y-2">
             <h2 className="text-2xl font-bold text-blue-400">Super</h2>
-            <p className="text-gray-300">Jigjiga's Coolest Spot</p>
+            <p className="text-sm text-gray-500">&copy; 2024 Super Ice Cream - Jigjiga&apos;s Coolest Spot. All rights reserved.</p>
           </div>
 
           {/* Contact */}

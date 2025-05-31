@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import PageWrapper from '@/components/page-wrapper';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Super Ice Cream - Jigjiga\'s Coolest Spot',
+  title: "Contact Us | Super Ice Cream - Jigjiga's Coolest Spot",
   description: 'Get in touch with Super Ice Cream in Jigjiga. Visit us at 8QXQ+6FR, call us at +251 995817222, or send us an email. Open 24/7 for your ice cream cravings.',
 };
 

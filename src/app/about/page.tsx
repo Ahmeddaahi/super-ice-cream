@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import PageWrapper from '@/components/page-wrapper';
 
 export const metadata: Metadata = {
-  title: 'About Us | Super Ice Cream - Jigjiga\'s Coolest Spot',
+  title: "About Us | Super Ice Cream - Jigjiga's Coolest Spot",
   description: 'Learn about Super Ice Cream, Jigjiga\'s favorite ice cream destination. Open 24/7, we take pride in serving our community with the finest frozen treats.',
 };
 
