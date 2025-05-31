@@ -188,7 +188,7 @@ export default function Home() {
               </div>
               <div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">Affordable Prices</h3>
-                <p className="text-gray-600">Quality ice cream at prices that won't break the bank.</p>
+                <p className="text-gray-600">Quality ice cream at prices that won&apos;t break the bank.</p>
               </div>
             </div>
           </div>

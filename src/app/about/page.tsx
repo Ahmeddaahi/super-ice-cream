@@ -2,8 +2,8 @@ import { Metadata } from 'next';
 import PageWrapper from '@/components/page-wrapper';
 
 export const metadata: Metadata = {
-  title: "About Us | Super Ice Cream - Jigjiga's Coolest Spot",
-  description: 'Learn about Super Ice Cream, Jigjiga\'s favorite ice cream destination. Open 24/7, we take pride in serving our community with the finest frozen treats.',
+  title: "About Us | Super Ice Cream - Jigjiga&apos;s Coolest Spot",
+  description: "Learn about Super Ice Cream, Jigjiga&apos;s favorite ice cream destination. Open 24/7, we take pride in serving our community with the finest frozen treats.",
 };
 
 export default function AboutPage() {
@@ -23,7 +23,7 @@ export default function AboutPage() {
         <div className="prose prose-lg mx-auto mb-16">
           <p className="text-gray-600 leading-relaxed mb-6">
             Founded with a passion for bringing joy to our community, Super Ice Cream has become
-            Jigjiga's favorite destination for premium frozen treats. Our journey began with a
+            Jigjiga&apos;s favorite destination for premium frozen treats. Our journey began with a
             simple mission: to create a welcoming space where families and friends could gather
             and enjoy exceptional ice cream at any hour of the day.
           </p>
