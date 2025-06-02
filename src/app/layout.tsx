@@ -11,6 +11,10 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'Super Ice Cream - Jigjiga\'s Coolest Spot',
   description: 'Welcome to Super Ice Cream, Jigjiga\'s favorite ice cream destination. Open 24/7, we serve delicious ice cream in a variety of flavors.',
+  icons: {
+    icon: '/images/ice-cream.png',
+    apple: '/images/ice-cream.png',
+  },
 }
 
 export default function RootLayout({

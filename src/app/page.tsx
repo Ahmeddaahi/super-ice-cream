@@ -1,19 +1,32 @@
 import Image from "next/image";
 import Link from 'next/link';
 import PageWrapper from '@/components/page-wrapper';
+import AnimatedHero from '@/components/animated-hero';
 
 export default function Home() {
   return (
     <PageWrapper>
     <main className="min-h-screen">
-      <div className="relative h-[90vh] flex items-center justify-center bg-gradient-to-b from-blue-50 to-white">
-        <div className="text-center space-y-6 px-4">
-          <h1 className="text-6xl md:text-7xl font-bold text-blue-600">
-            Super
-          </h1>
-          <p className="text-2xl md:text-3xl text-gray-600">
-            Jigjiga&apos;s Coolest Spot
-          </p>
+      <div className="relative h-[90vh] flex items-center justify-center overflow-hidden">
+        {/* Hero background image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/images.jpeg"
+            alt="Super Ice Cream Hero"
+            fill
+            priority
+            quality={100}
+            sizes="100vw"
+            className="object-cover brightness-105 contrast-105"
+            style={{
+              objectPosition: 'center 30%',
+            }}
+          />
+          {/* Semi-transparent overlay for better text readability */}
+          <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
+        </div>
+        <div className="text-center space-y-6 px-4 z-10">
+          <AnimatedHero />
           <div className="pt-4">
             <Link 
               href="/menu" 
@@ -23,8 +36,8 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        {/* Decorative ice cream cone background */}
-        <div className="absolute inset-0 opacity-10 pointer-events-none">
+        {/* Decorative elements */}
+        <div className="absolute inset-0 opacity-10 pointer-events-none z-0">
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-blue-200 rounded-full blur-3xl"></div>
         </div>
       </div>

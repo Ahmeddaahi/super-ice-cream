@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#ffffff" />
+    </linearGradient>
+    <pattern id="pattern-circles" width="50" height="50" patternUnits="userSpaceOnUse">
+      <circle cx="25" cy="25" r="10" fill="#93c5fd" opacity="0.3" />
+    </pattern>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#bg-gradient)" />
+  <rect width="100%" height="100%" fill="url(#pattern-circles)" />
+  
+  <!-- Ice Cream Cone -->
+  <g transform="translate(960, 540) scale(1.5)">
+    <!-- Cone -->
+    <path d="M-100,100 L100,100 L0,-100 Z" fill="#d4a76a" />
+    
+    <!-- Ice Cream Scoops -->
+    <circle cx="0" cy="-120" r="80" fill="#f9a8d4" /> <!-- Pink -->
+    <circle cx="-40" cy="-180" r="70" fill="#93c5fd" /> <!-- Blue -->
+    <circle cx="40" cy="-180" r="70" fill="#fde68a" /> <!-- Yellow -->
+    
+    <!-- Sprinkles -->
+    <g>
+      <rect x="-60" y="-220" width="15" height="5" rx="2" fill="#ef4444" transform="rotate(30)" />
+      <rect x="20" y="-240" width="15" height="5" rx="2" fill="#3b82f6" transform="rotate(-20)" />
+      <rect x="50" y="-200" width="15" height="5" rx="2" fill="#10b981" transform="rotate(45)" />
+      <rect x="-30" y="-180" width="15" height="5" rx="2" fill="#f59e0b" transform="rotate(-45)" />
+      <rect x="10" y="-150" width="15" height="5" rx="2" fill="#8b5cf6" transform="rotate(10)" />
+    </g>
+  </g>
+</svg>
